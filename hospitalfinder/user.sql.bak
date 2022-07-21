@@ -1,0 +1,79 @@
+-- phpMyAdmin SQL Dump
+-- version 5.1.3
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: Jul 17, 2022 at 06:12 PM
+-- Server version: 10.4.24-MariaDB
+-- PHP Version: 7.4.29
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `hospitalfinder`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `user`
+--
+
+CREATE TABLE `user` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `address` varchar(255) NOT NULL,
+  `coords` varchar(255) NOT NULL,
+  `ip_address` varchar(64) NOT NULL,
+  `date` datetime NOT NULL DEFAULT current_timestamp(),
+  `user_agent` varchar(256) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `user`
+--
+
+INSERT INTO `user` (`id`, `name`, `email`, `address`, `coords`, `ip_address`, `date`, `user_agent`) VALUES
+(24, '‘Atif Rahim', 'muhammadatifabdulrahim@gmail.com', 'alamat:', 'coordinate: ', '192.168.188.131', '2022-07-17 22:49:15', 'Dalvik/2.1.0 (Linux; U; Android 10; Android SDK built for x86 Build/QSR1.190920.001)'),
+(25, '‘Atif Rahim', 'muhammadatifabdulrahim@gmail.com', 'address: ', 'coords: ', '192.168.188.131', '2022-07-17 22:52:39', 'Dalvik/2.1.0 (Linux; U; Android 10; Android SDK built for x86 Build/QSR1.190920.001)'),
+(26, '‘Atif Rahim', 'muhammadatifabdulrahim@gmail.com', 'address: ', 'coords: ', '192.168.188.131', '2022-07-17 23:00:23', 'Dalvik/2.1.0 (Linux; U; Android 10; Android SDK built for x86 Build/QSR1.190920.001)'),
+(27, '‘Atif Rahim', 'muhammadatifabdulrahim@gmail.com', 'address: ', 'coords: ', '192.168.188.131', '2022-07-17 23:00:32', 'Dalvik/2.1.0 (Linux; U; Android 10; Android SDK built for x86 Build/QSR1.190920.001)'),
+(28, '‘Atif Rahim', 'muhammadatifabdulrahim@gmail.com', 'address: ', 'coords: ', '192.168.188.131', '2022-07-17 23:20:43', 'Dalvik/2.1.0 (Linux; U; Android 10; Android SDK built for x86 Build/QSR1.190920.001)'),
+(29, '‘Atif Rahim', 'muhammadatifabdulrahim@gmail.com', 'address: ', 'coords: ', '192.168.188.131', '2022-07-17 23:32:21', 'Dalvik/2.1.0 (Linux; U; Android 10; Android SDK built for x86 Build/QSR1.190920.001)'),
+(30, '‘Atif Rahim', 'muhammadatifabdulrahim@gmail.com', 'address: ', 'coords: ', '192.168.188.131', '2022-07-18 00:04:51', 'Dalvik/2.1.0 (Linux; U; Android 10; Android SDK built for x86 Build/QSR1.190920.001)'),
+(31, '‘Atif Rahim', 'muhammadatifabdulrahim@gmail.com', 'Susuran PJI, Uitm Arau, 02600 Arau, Perlis, Malaysia', 'Lattitude 6.451541499999999 Longitude 100.27867909999999', '192.168.188.131', '2022-07-18 00:07:04', 'Dalvik/2.1.0 (Linux; U; Android 10; Android SDK built for x86 Build/QSR1.190920.001)'),
+(32, '‘Atif Rahim', 'muhammadatifabdulrahim@gmail.com', 'Susuran PJI, Uitm Arau, 02600 Arau, Perlis, Malaysia', 'Lattitude 6.451541499999999 Longitude 100.27867909999999', '192.168.188.131', '2022-07-18 00:12:20', 'Dalvik/2.1.0 (Linux; U; Android 10; Android SDK built for x86 Build/QSR1.190920.001)');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `user`
+--
+ALTER TABLE `user`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `user`
+--
+ALTER TABLE `user`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HospitalFinder</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="link"><a href="https://github.com/yapahtip/ITT650-hospitalfinder">Click the link here to visit our Github</a></string>
+</resources>

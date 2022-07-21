@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".about">
+
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/atif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/about2" />
+
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="MUHAMMAD 'ATIF BIN ABDUL RAHIM \n2021110669"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/about2" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/yasir"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/about2" />
+
+    <TextView
+        android:id="@+id/name2"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="MUHAMMAD YASIR BIN ZULFIKRI \n2021102793"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name1" />
+
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/syafiq"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/about2" />
+
+    <TextView
+        android:id="@+id/name3"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="MUHAMMAD NURSYAFIQ BIN MAHADZIR \n2021112171"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name2" />
+
+
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="180dp"
+        android:src="@drawable/haziq"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/about2" />
+
+    <TextView
+        android:id="@+id/name4"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="MUHAMMAD HAZIQ KHAN BIN TAIB KHAN \n2021102807"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name3" />
+
+    <ImageView
+        android:id="@+id/img5"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="240dp"
+        android:src="@drawable/musfira"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/about2" />
+
+    <TextView
+        android:id="@+id/name5"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="MUSFIRA BINTI MOHD AZMIR \n2021119001"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name4" />
+
+    <ImageView
+        android:id="@+id/img6"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/syuhana"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/about2" />
+
+    <TextView
+        android:id="@+id/name6"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="NORSYUHANA BINTI NOORDIN \n2021103431"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name5" />
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textColor="@color/black"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="13dp" />
+
+    <TextView
+        android:id="@+id/about2"
+        android:layout_width="354dp"
+        android:layout_height="72dp"
+        android:gravity="center"
+        android:text="Find Hospital Apps was developed by a group from CS251 in UiTM Perlis, Arau Campus. \nThis app is created for the subject ICT650. \nThe members of the group are:-"
+        app:layout_constraintBottom_toTopOf="@+id/name1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/about"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/footer"
+        android:layout_width="351dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="@string/link"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
